@@ -52,7 +52,7 @@ export const ContactUs = () => {
                 <br/>
                 <Stack className='formInput'>           
                     <label>Message* </label>  
-                    <textarea name="message" onChange={e=>setMessage(e.target.value)} value={message} required/>
+                    <textarea name="message" className='textAreaInput' onChange={e=>setMessage(e.target.value)} value={message} required/>
                     
                     <label>
                         <input type='checkbox' required/>
