@@ -32,7 +32,7 @@ const Contact = () => {
         alt=""
         loading="lazy" 
         className="contactIcon"/> 
-        <p>bygabymora@gmail.com</p>
+        <p>gaby@bygabymora.com</p>
         </Stack>
         <p className='formInput'>www.bygabymora.com</p> <br/>
       </div>
