@@ -9,9 +9,7 @@ const App = () => {
   return (
     <Box className='appBox'>
         <Navbar/>
-        <Routes>
-            <Route path='/' element={<Home/>}/>
-        </Routes>
+        <Home/>
         <Footer/>
     </Box>
   )
