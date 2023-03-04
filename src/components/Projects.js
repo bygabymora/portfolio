@@ -1,8 +1,15 @@
 import React from 'react'
+import { Stack } from '@mui/material';
 
 const Projects = () => {
   return (
-    <div id='projects' className='about'>Projects</div>
+    <Stack className='about' id='projects'> 
+    <Stack>Projects done</Stack>
+    <Stack>
+      
+    </Stack>
+    <Stack>Projects in process</Stack>
+    </Stack>
   )
 }
 
