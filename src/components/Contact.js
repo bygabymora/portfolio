@@ -7,7 +7,7 @@ import MailIcon from '../assets/icons/icons8-mail.svg';
 const Contact = () => {
   return (
     <Stack  id='contact'>
-    <div className='contactMe'>
+    <div className='about'>
     <h1 className='aboutMeTitle'>Contact me!</h1>
       <p className='aboutMeText'>If you have any project where you think I could be useful, 
         please contact me!<br/>

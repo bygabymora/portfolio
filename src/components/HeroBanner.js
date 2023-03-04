@@ -25,6 +25,7 @@ const HeroBanner = () => {
         <div className='spacer'></div>
         <div >
           <img className='byGabyMora' src={byGabyMora} alt='ByGabyMora'/>
+          <br/><br/>
         </div> 
 
     </Box>
