@@ -13,12 +13,12 @@ const HeroBanner = () => {
         </div>
         <br/>
         <div className='heroBannerSubTitle'>
-        <Stack direction={{sm: 'column', md:'row'}} gap='5%'> 
+        <Stack direction='row' gap='5%'> 
         <a href='#contact' className='heroBannerButton'>
-            Lets talk about your needs.
+            Lets talk!
         </a>
         <a href={CV} className='heroBannerButton' target='_blank'>
-            Download my CV.
+            Resume.
         </a>
         </Stack>    
         </div>
