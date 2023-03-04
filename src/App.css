@@ -156,7 +156,12 @@
     width: 100%;
     height: auto;
 }
+/*projectsDone*/
 
+.projectsDone {
+  width: 20%;
+  border-radius: 25%;
+}
 /* Skills*/
 .skills {
 
