@@ -159,7 +159,7 @@
 
 /* Skills*/
 .skills {
-    max-width: 68.75rem;
+
     margin: auto;
     text-align: center;
     margin-top: 2.5rem;
@@ -245,11 +245,12 @@
     gap:40px;
     margin-top: auto;
     justify-content:space-evenly;
-    margin: 5%;
+    margin: auto;
+    width: 97%;
    
   }
   .contactInfo{
-    padding-right: 5%;
+    width: 97%;
   }
   /*Footer*/
   .footer{

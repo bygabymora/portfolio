@@ -16,7 +16,7 @@ import { Stack } from '@mui/material';
 
 const Skills = () => {
   return (
-    <section className="skills" id="skills">
+    <section className="skills about" id="skills">
     <h2 className="skillHeader">My Top Skills</h2>   
     <ScrollMenu className='scrollBar'>   
         <Stack alignItems='center'>

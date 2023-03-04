@@ -15,6 +15,7 @@ const Contact = () => {
     </div>
     <Stack className='info' direction={{ xs: 'column' , sm: 'column' , md: 'column' , lg: 'row' , xl: 'row'}}>
       <div>
+        <br/>
         <ContactUs/>
       </div>
       <div>

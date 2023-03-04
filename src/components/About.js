@@ -4,7 +4,7 @@ import AboutImage from '../assets/images/AboutImage.png';
 
 const About = () => {
   return (
-    <Stack direction={{ xs: 'column' , sm: 'column' , md: 'column' , lg: 'row' , xl: 'row'}} className='about '>
+    <Stack direction={{ xs: 'column' , sm: 'column' , md: 'column' , lg: 'row' , xl: 'row'}} width='97%' margin='auto'>
       <div>
         <img src={AboutImage} alt='About Image'className='fakephoto'/>
       </div>
