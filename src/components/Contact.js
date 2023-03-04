@@ -18,7 +18,7 @@ const Contact = () => {
         <ContactUs/>
       </div>
       <div>
-        <Stack direction='row' marginTop= {{lg:'15%'}}>
+        <Stack direction='row' marginTop= {{lg:'15%'}} className='contactInfo'>
         <img
         src={WhatsAppIcon}
         alt=""
@@ -26,7 +26,7 @@ const Contact = () => {
         className="contactIcon"/> 
         <p>(+57) 302 2012043</p>
         </Stack>
-        <Stack direction='row'>
+        <Stack direction='row' className='contactInfo'>
         <img
         src={MailIcon}
         alt=""
@@ -34,7 +34,7 @@ const Contact = () => {
         className="contactIcon"/> 
         <p>gaby@bygabymora.com</p>
         </Stack>
-        <p className='formInput'>www.bygabymora.com</p> <br/>
+        <p className='formInput'>www.bygabymora.com</p><br/>
       </div>
         
     </Stack>
