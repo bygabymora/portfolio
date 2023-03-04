@@ -46,6 +46,7 @@
    align-items: center;
    gap: 40px;
    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+   width: 100%;
 }
 .logo {
     width: auto;
