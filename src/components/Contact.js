@@ -25,7 +25,7 @@ const Contact = () => {
         alt=""
         loading="lazy" 
         className="contactIcon"/> 
-        <p>(+57) 302 2012043</p>
+        <p className='contactInfo'>(+57) 302 2012043</p>
         </Stack>
         <Stack direction='row' className='contactInfo'>
         <img
@@ -33,9 +33,9 @@ const Contact = () => {
         alt=""
         loading="lazy" 
         className="contactIcon"/> 
-        <p>gaby@bygabymora.com</p>
+        <p className='contactInfo'>gaby@bygabymora.com</p>
         </Stack>
-        <p className='formInput'>www.bygabymora.com</p><br/>
+        <p className='formInput contactInfo'>www.bygabymora.com</p><br/>
       </div>
         
     </Stack>
