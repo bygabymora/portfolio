@@ -160,7 +160,43 @@
 
 .projectsDone {
   width: 300px;
-  border-radius: 25%;
+  border:solid #F7A3B1;
+  border-radius: 50%;
+  
+}
+.projectCard {
+  width: 300px;
+  height: auto;
+  background: var(--white);
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.projectName{
+  justify-content: center;
+  font-weight: bold;
+  margin:auto;
+  padding: 15px;
+}
+.projectButton{
+  background-color: var(--pink);
+  color: var(--dark-blue) ;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  box-shadow: 5px 5px;
+  text-decoration: none;
+}
+.projectButton:hover{
+  opacity: 70%;
+}
+.projectButton:active{
+  opacity: 70%;
+  box-shadow:none;
+  margin-top: 5px;
 }
 /* Skills*/
 .skills {
