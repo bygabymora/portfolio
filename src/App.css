@@ -176,6 +176,7 @@
   50%  {color:var(--pink); left:200px; top:200px;}
   75%  {color:var(--light-blue); left:0px; top:200px;}
   100% {color:var(--dark-blue); left:0px; top:0px;}
+  
 }
 
 .projectGif {
