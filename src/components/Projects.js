@@ -10,10 +10,9 @@ const Projects = () => {
       <p className='aboutMeText'>Most of my projects are developed in React.js and uploaded to a repository on Github. </p>
       <br/>
         <Stack direction={{sm: 'column', md: 'row'}}>
-          <Stack>
-          <h1 className='aboutMeTitle done'>Done</h1>
-          
-          </Stack>
+          <div className='titleWraper'>
+          <div className='done'>Done</div>
+          </div>
           <Stack>
         <a href='https://bygabymora.github.io/gymapp/' target='_blank' className='projectCard'>
           <img src={gymApp} className='projectGif' />
@@ -27,7 +26,9 @@ const Projects = () => {
         </Stack>
       <br/> <br/>
       <Stack>
+      <div className='titleWraper'>
       <Stack className='aboutMeTitle done'>Projects in process</Stack>
+      </div>
       </Stack>
     
     </Stack>

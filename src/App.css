@@ -157,10 +157,27 @@
     height: auto;
 }
 /*projectsDone*/
-.done {
-  width: 300px;
-  height: 130px;
+.titleWraper{
+  width: 400px;
+  height: 400px;
 }
+.done {
+  animation-name: projectsDone;
+  position: relative;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  font-weight: bold;
+  font-family: var(--header);
+  font-size: 2rem;
+}
+@keyframes projectsDone {
+  0%   {color:var(--dark-blue); left:0px; top:0px;}
+  25%  {color:var(--light-blue); left: 200px; top:0px;}
+  50%  {color:var(--pink); left:200px; top:200px;}
+  75%  {color:var(--light-blue); left:0px; top:200px;}
+  100% {color:var(--dark-blue); left:0px; top:0px;}
+}
+
 .projectGif {
   width: 300px;
   height: 130px;
