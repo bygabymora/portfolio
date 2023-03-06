@@ -14,7 +14,7 @@ const Projects = () => {
         <img src={gymApp} className='projectsDone'/>
         <p className='projectName'> The Gym App </p>
       <Stack direction='row' gap='10%'>
-      <input type="button" onclick="https://github.com/bygabymora/gymapp" value="Repository" className='projectButton'/>
+      <input type="button" onclick="https://github.com/bygabymora?tab=repositories" value="Repository" className='projectButton'/>
       <input type="button" onclick="https://bygabymora.github.io/gymapp/" value="App preview" className='projectButton'/>
       </Stack>
       </a> 
