@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.a14d56e4.css",
-    "main.js": "/static/js/main.42696ef9.js",
+    "main.css": "/static/css/main.3ff8c41a.css",
+    "main.js": "/static/js/main.3e6be241.js",
+    "static/media/gymapp.gif": "/static/media/gymapp.604d5286e09f7b00a00d.gif",
     "static/media/AboutImage.png": "/static/media/AboutImage.22d1cf3de455fb80e5f1.png",
-    "static/media/gymapp.gif": "/static/media/gymapp.c7141630898a410391bf.gif",
     "static/media/heroBannerImage.png": "/static/media/heroBannerImage.d68e07e5172b8456b82d.png",
     "static/media/By Gaby Mora.png": "/static/media/By Gaby Mora.d9130164a4595ff11ae5.png",
     "static/media/icons8-MUI.svg": "/static/media/icons8-MUI.8be1613a878de747206903008d8d99e3.svg",
@@ -24,11 +24,11 @@
     "index.html": "/index.html",
     "static/media/icons8-css3.svg": "/static/media/icons8-css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/icons8-html-5.svg": "/static/media/icons8-html-5.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "main.a14d56e4.css.map": "/static/css/main.a14d56e4.css.map",
-    "main.42696ef9.js.map": "/static/js/main.42696ef9.js.map"
+    "main.3ff8c41a.css.map": "/static/css/main.3ff8c41a.css.map",
+    "main.3e6be241.js.map": "/static/js/main.3e6be241.js.map"
   },
   "entrypoints": [
-    "static/css/main.a14d56e4.css",
-    "static/js/main.42696ef9.js"
+    "static/css/main.3ff8c41a.css",
+    "static/js/main.3e6be241.js"
   ]
 }
