@@ -4,7 +4,7 @@ import gymApp from '../assets/images/gymapp.gif'
 import { useInView } from "react-intersection-observer";
 
 const Projects = () => {
-  const [ref, inView] = useInView({ threshold: 0.5 })
+  const [ref, inView] = useInView({ threshold: 0.01 })
 
   return (
     <Stack className='section' id='projects'> 

@@ -16,7 +16,7 @@ import { Stack } from '@mui/material';
 
 
 const Skills = () => {
-  const [ref, inView] = useInView({ threshold: 0.5 })
+  const [ref, inView] = useInView({ threshold: 0.01 })
 
   return (
     <section className="section" id="skills">

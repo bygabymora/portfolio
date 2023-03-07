@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 
 const About = () => {
 
-  const [ref, inView] = useInView({ threshold: 0.5 })
+  const [ref, inView] = useInView({ threshold: 0.01 })
   return (
     <Stack className="section" direction={{ xs: 'column' , sm: 'column' , md: 'column' , lg: 'row' , xl: 'row'}} >
       <div>
