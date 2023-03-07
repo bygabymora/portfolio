@@ -65,14 +65,13 @@
   width:'100%';
   animation-name: sectionHeaderAnimation;
   position: relative;
-  animation-duration: 5s;
+  animation-duration: 3s;
 
 
 }
 @keyframes sectionHeaderAnimation {
-  0%   {color:var(--dark-blue); left:0% }
+  0%   {color:var(--dark-blue); left: -50%}
   25%  {color:var(--pink); left:50%}
-  75%   {color:var(--pink); left:-50% }
   100% {color:var(--dark-blue); left:0%}
 
 }
