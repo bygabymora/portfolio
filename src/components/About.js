@@ -17,7 +17,7 @@ const About = () => {
          Hi! <br/>
          I'm Gaby Mora, I'm a junior web developer, 
          I create very pretty and useful websites 
-         and I've specialized in modern web (React.js).<br/><br/>
+         and I've focused in modern web using React.js with Hooks.<br/><br/>
 
         My passion for coding started years ago, 
         but until a little time ago I became serious about it. 

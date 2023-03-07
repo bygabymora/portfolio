@@ -192,9 +192,10 @@
   flex-direction: column;
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
-  margin: 10px;
+
   font-family: var(--paragraph);
   border-radius: 11px;
+  align-items: center;
 }
 .projectName{
   justify-content: center;
@@ -233,8 +234,7 @@
     padding: 1.25rem;
     
   }
-  
-  .icon {
+   .icon {
     width: 8rem;
     height: 8rem;
   }
@@ -417,7 +417,7 @@
 
   }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
     .appBox {
         width:'600px';  
     }
@@ -444,10 +444,14 @@
       font-size: smaller;
     }
     .projectCard {
-      width: 95%;
+      width: 100%;
     }
     .projectGif {
-      width: 150px;
-      height: 75px;
+      width: 200;
+      height: 90;
+    }
+    .cardText {
+      font-family: var(--paragraph);
+      font-size: smaller;
     }
   }
