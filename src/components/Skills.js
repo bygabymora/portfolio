@@ -10,18 +10,22 @@ import TSIcon from '../assets/icons/icons8-TS.svg';
 import MUIIcon from '../assets/icons/icons8-MUI.svg';
 
 import { ScrollMenu } from 'react-horizontal-scrolling-menu';
+import { useInView } from "react-intersection-observer";
 
 import { Stack } from '@mui/material';
 
 
 const Skills = () => {
+  const [ref, inView] = useInView({ threshold: 0.5 })
+
   return (
-    <section className="skills about" id="skills">
-    <h2 className="skillHeader">My Top Skills</h2>   
+    <section className="section" id="skills">
+    <h2 ref={ref} className={inView ?'sectionHeader': null}>My Top Skills</h2> 
+    <br/>  
     <ScrollMenu className='scrollBar'>   
         <Stack alignItems='center'>
-          <Stack direction='row'  className="animate__animated animate__pulse">
-            <Stack direction='row'  className="animate__animated animate__pulse">
+          <Stack direction='row'  className={inView ?"animate__animated animate__pulse": null}>
+            <Stack direction='row'   className={inView ?"animate__animated animate__pulse": null}>
               <div className="iconCard">
               <img
                 src={HtmlIcon}

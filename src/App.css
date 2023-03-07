@@ -36,16 +36,55 @@
     font-size: 30px;
   }
 .appBox {
-    width:'100%';
-    margin:auto;
+    width: 95%;
+    margin-right: 3%;
+}
+.section{
+  justify-content: none; 
+  align-items: center;
+  gap: 40px;
+  width: 90%;
+  width: 100%;
+  height: auto;
+}
+.wraper{
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  margin-left: auto;
+  margin-right: auto; 
+  
+}
+.sectionHeader{
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+  font-weight: bold;
+  font-family: var(--header);
+  font-size: 2rem;
+  width:'100%';
+  animation-name: sectionHeaderAnimation;
+  position: relative;
+  animation-duration: 5s;
+
+
+}
+@keyframes sectionHeaderAnimation {
+  0%   {color:var(--dark-blue); left:0% }
+  25%  {color:var(--pink); left:50%}
+  75%   {color:var(--pink); left:-50% }
+  100% {color:var(--dark-blue); left:0%}
+
+}
+.sectionText{
+  font-family: var(--paragraph);
+  font-size: auto;
+  padding-right: 3%;
+  margin: 3%;
 }
 
+
 /*NavBar*/
-.wraper{
-   justify-content: none; 
-   align-items: center;
-   gap: 40px;
-}
 .logo {
     width: auto;
     height: 250px;
@@ -129,27 +168,7 @@
     height: 20px;
 }
 /*About me*/
-.about{
-  
-  width: 95%;
-  padding: 0.625rem;
-  border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-  margin-left: auto;
-  margin-right: auto; 
-}
-.aboutMeTitle{
-    font-weight: bold;
-    font-family: var(--header);
-    font-size: 2rem;
-    
-}
-.aboutMeText{
-    
-    font-family: var(--paragraph);
-    font-size: auto;
-    padding-right: 3%;
-}
+
 .fakephoto{
     margin-top: auto;
     margin-bottom: auto;
@@ -157,27 +176,17 @@
     height: auto;
 }
 /*projectsDone*/
-.titleWraper{
-  width: 400px;
-  height: 400px;
-}
+
 .done {
   animation-name: projectsDone;
   position: relative;
-  animation-duration: 6s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   font-weight: bold;
   font-family: var(--header);
   font-size: 2rem;
 }
-@keyframes projectsDone {
-  0%   {color:var(--dark-blue); left:0px; top:0px;}
-  25%  {color:var(--light-blue); left: 200px; top:0px;}
-  50%  {color:var(--pink); left:200px; top:200px;}
-  75%  {color:var(--light-blue); left:0px; top:200px;}
-  100% {color:var(--dark-blue); left:0px; top:0px;}
-  
-}
+
 
 .projectGif {
   width: 300px;
@@ -231,16 +240,11 @@
 /* Skills*/
 .skills {
 
-    margin: auto;
-    text-align: center;
-    margin-top: 2.5rem;
+   
   }
   
   .skillHeader {
-    font-weight: bold;
-    font-family: var(--header);
-    font-size: 2rem;
-    width:'100%';
+    
   }
   
   .skillsWrapper{

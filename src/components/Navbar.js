@@ -5,7 +5,7 @@ import BGM2 from '../assets/images/BGM2.png'
 
 const Navbar = () => {
   return (
-    <Stack  direction={{ xs: 'column' , sm: 'row' , md: 'row'}} className='about wraper'>
+    <Stack  direction={{ xs: 'column' , sm: 'row' , md: 'row'}} className='section wraper'>
       <Link to='/'>
         <img className='logo' src={BGM2} alt='logo' id='top'/>
       </Link> 

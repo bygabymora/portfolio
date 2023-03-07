@@ -3,13 +3,16 @@ import React from 'react';
 import Formulario, { ContactUs } from './ContactUs';
 import WhatsAppIcon from '../assets/icons/icons8-whatsapp.svg';
 import MailIcon from '../assets/icons/icons8-mail.svg';
+import { useInView } from "react-intersection-observer";
 
 const Contact = () => {
+  const [ref, inView] = useInView({ threshold: 0.5 })
+  
   return (
-    <Stack  id='contact'>
+    <Stack  className='section' id='contact'>
     <div>
-    <h1 className='aboutMeTitle'>Contact me!</h1>
-      <p className='aboutMeText'>If you have any project where you think I could be useful, 
+    <h1  ref={ref} className={inView ?'sectionHeader': null}>Contact me!</h1>
+      <p className='sectionText'>If you have any project where you think I could be useful, 
         please contact me!<br/>
       </p>
     </div>

@@ -1,16 +1,19 @@
 import React from 'react';
 import { Stack } from '@mui/material';
 import AboutImage from '../assets/images/AboutImage.png';
+import { useInView } from "react-intersection-observer";
 
 const About = () => {
+
+  const [ref, inView] = useInView({ threshold: 0.5 })
   return (
-    <Stack direction={{ xs: 'column' , sm: 'column' , md: 'column' , lg: 'row' , xl: 'row'}} width='97%' margin='auto'>
+    <Stack className="section" direction={{ xs: 'column' , sm: 'column' , md: 'column' , lg: 'row' , xl: 'row'}} >
       <div>
         <img src={AboutImage} alt='About Image'className='fakephoto'/>
       </div>
       <div className='about'> 
-        <h1  className='aboutMeTitle' id="about">About me.</h1>
-        <p className='aboutMeText'>
+        <h1 ref={ref} className={inView ?'sectionHeader': null} id="about">About me.</h1>
+        <p className='sectionText'>
          Hi! <br/>
          I'm Gaby Mora, I'm a junior web developer, 
          I create very pretty and useful websites 
