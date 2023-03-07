@@ -176,23 +176,11 @@
 }
 /*projectsDone*/
 
-.done {
-  animation-name: projectsDone;
-  position: relative;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  font-weight: bold;
-  font-family: var(--header);
-  font-size: 2rem;
-}
-
-
 .projectGif {
   width: 300px;
   height: 130px;
   border:solid 5px var(--dark-blue);
   border-radius: 50%;
-  
 }
 .projectCard {
   width: 300px;
@@ -462,6 +450,9 @@
     }
     .contactInfo{
       font-size: smaller;
+    }
+    .projectCard {
+      width: 95%;
     }
  
   }
