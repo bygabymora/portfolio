@@ -1,6 +1,8 @@
 import React from 'react'
 import { Stack } from '@mui/material';
-import gymApp from '../assets/images/gymapp.gif'
+import gymApp from '../assets/images/gymapp.gif';
+import shoppingList from '../assets/images/shoppinglist.gif';
+import carcare from '../assets/images/CarCare.gif';
 import { useInView } from "react-intersection-observer";
 
 const Projects = () => {
@@ -12,7 +14,7 @@ const Projects = () => {
       <h1 ref={ref} className={inView ?'sectionHeader': null}>Projects</h1>
       <p className='sectionText'>Most of my projects are developed in React.js and uploaded to a repository on Github. </p>
       <br/>
-        <Stack direction={{sm: 'column', md: 'row'}}>
+        <Stack direction={{sm: 'column', md: 'row'}} gap='40px'>
         <Stack>
         <a href='https://bygabymora.github.io/gymapp/' target='_blank' className='projectCard'>
           <img src={gymApp} className='projectGif' />
@@ -23,12 +25,36 @@ const Projects = () => {
           </Stack>
         </a>
         </Stack>
+        <Stack>
+        <a href='https://bygabymora.github.io/shoppinglist/' target='_blank' className='projectCard'>
+          <img src={shoppingList} className='projectGif' />
+          <p className='projectName'> The Shopping list </p>
+          <Stack className='buttonsWraper' direction='row' gap='10%'>
+          <a type="button" href="https://github.com/bygabymora/shoppinglist" className='projectButton' target='blank'>Repository</a>
+          <a type="button" href="https://bygabymora.github.io/shoppinglist/"  className='projectButton' target='blank'>Preview</a>
+          </Stack>
+        </a>
         </Stack>
-      <br/> <br/>
+        </Stack>
+      <br/> 
+      <h1>In Process</h1>
+       <br/>
+      <Stack>
+        <a href='https://bygabymora.github.io/carcare/' target='_blank' className='projectCard'>
+          <img src={carcare} className='projectGif' />
+          <p className='projectName'> Car Care Tracker </p>
+          <Stack className='buttonsWraper' direction='row' gap='10%'>
+          <a type="button" href="https://github.com/bygabymora/carcare" className='projectButton' target='blank'>Repository</a>
+          <a type="button" href="https://bygabymora.github.io/carcare/"  className='projectButton' target='blank'>Preview</a>
+          </Stack>
+        </a>
+        </Stack>
+
       <Stack>
       <div className='titleWraper'>
       </div>
       </Stack>
+    
     
     </Stack>
   )
