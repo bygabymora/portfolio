@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.7b6c5d00.css",
-    "main.js": "/static/js/main.4f689450.js",
+    "main.js": "/static/js/main.1370b95b.js",
     "static/media/gymapp.gif": "/static/media/gymapp.604d5286e09f7b00a00d.gif",
+    "static/media/shoppinglist.gif": "/static/media/shoppinglist.212bf971d4cf0fafd0f0.gif",
     "static/media/AboutImage.png": "/static/media/AboutImage.22d1cf3de455fb80e5f1.png",
+    "static/media/CarCare.gif": "/static/media/CarCare.6d8c844aee226ce96fcb.gif",
     "static/media/heroBannerImage.png": "/static/media/heroBannerImage.d68e07e5172b8456b82d.png",
     "static/media/By Gaby Mora.png": "/static/media/By Gaby Mora.d9130164a4595ff11ae5.png",
     "static/media/icons8-MUI.svg": "/static/media/icons8-MUI.8be1613a878de747206903008d8d99e3.svg",
@@ -25,10 +27,10 @@
     "static/media/icons8-css3.svg": "/static/media/icons8-css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/icons8-html-5.svg": "/static/media/icons8-html-5.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.7b6c5d00.css.map": "/static/css/main.7b6c5d00.css.map",
-    "main.4f689450.js.map": "/static/js/main.4f689450.js.map"
+    "main.1370b95b.js.map": "/static/js/main.1370b95b.js.map"
   },
   "entrypoints": [
     "static/css/main.7b6c5d00.css",
-    "static/js/main.4f689450.js"
+    "static/js/main.1370b95b.js"
   ]
 }
