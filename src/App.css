@@ -44,15 +44,16 @@
   align-items: center;
   gap: 40px;
   width: 90%;
-  width: 100%;
   height: auto;
-}
-.wraper{
   padding: 0.625rem;
-  border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   margin-left: auto;
   margin-right: auto; 
+  padding: 0.625rem;
+}
+.wraper{
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   
 }
 .sectionHeader{
@@ -367,15 +368,14 @@
     .heroBannerTitle{
         font-size: 1.5rem;
     }
-     .heroBannerSubTitle{
+    .heroBannerSubTitle{
         font-size: 1rem;
     } 
     .heroBannerButton{
         font-size: 0.7rem;
     }
     .hero-banner-img{
-        height: 300px;
-        margin-top: 220px;
+        display: none;
     } 
     
     .byGabyMora {
@@ -383,43 +383,10 @@
     }
 }
 
+
 @media screen and (max-width: 720px) {
     .appBox {
-        width:100%;  
-    }
-    .heroBannerTitle{
-        font-size: 1.5rem;
-    }
-    .heroBannerSubTitle{
-        font-size: 1rem;
-    } 
-    .heroBannerButton{
-        font-size: 0.5rem;
-        
-    }
-    .hero-banner-img{
-        display: none;
-    }
-    .about{
-        width: 100%;
-    }
-    .navBarItem{
-        font-size: smaller;
-    }
-    .wraper{
-        gap: 5%;
-        align-items: center;
-        padding-bottom: 5%;
-    }
-    .navBar{
-        justify-content: center; 
-    }
-
-  }
-
-@media screen and (max-width: 520px) {
-    .appBox {
-        width:'600px';  
+      width:'600px';  
     }
     .hero-banner-img, .byGabyMora{
     display: none;
@@ -431,15 +398,12 @@
     .heroBannerTitle{
         font-size: 1rem;
     }
-     .heroBannerSubTitle{
+    .heroBannerSubTitle{
         font-size: 0.7rem;
     } 
     .heroBannerButton{
         font-size: 0.7rem;
     }  
-    .about{
-        width: 100%;
-    }
     .contactInfo{
       font-size: smaller;
     }
@@ -454,4 +418,20 @@
       font-family: var(--paragraph);
       font-size: smaller;
     }
+    .hero-banner-img{
+      display: none;
+  }
+ 
+    .navBarItem{
+      font-size: smaller;
+  }
+    .wraper{
+      align-items: center;
+      padding-bottom: 5%;
+      width: 98%;
+  }
+    .navBar{
+      justify-content: center; 
+  }
+
   }
