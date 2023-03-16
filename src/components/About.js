@@ -15,9 +15,9 @@ const About = () => {
         <h1 ref={ref} className={inView ?'sectionHeader': null} id="about">About me.</h1>
         <p className='sectionText'>
          Hi! <br/>
-         I'm Gaby Mora, I'm a junior web developer, 
-         I create very pretty and useful websites 
-         and I've focused in modern web using React.js with Hooks.<br/><br/>
+         I'm Gaby Mora, I'm a Jr. App developer, 
+         I create very useful sites 
+         and I've focused in modern apps using React.js with Hooks.<br/><br/>
 
         My passion for coding started years ago, 
         but until a little time ago I became serious about it. 
