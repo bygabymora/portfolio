@@ -135,6 +135,7 @@
     width: auto;
     height: 400px;
     margin-top: 10%;
+    background: none;
 }
 .heroBannerButton{
     background-color: var(--pink);
