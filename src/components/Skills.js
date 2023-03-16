@@ -117,7 +117,7 @@ const Skills = () => {
           </Stack>
         </Stack>
        </ScrollMenu>
-       <div height='50px' width='auto'>'</div>
+       
     </section>
   )
 }
