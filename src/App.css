@@ -67,6 +67,7 @@
   animation-name: sectionHeaderAnimation;
   position: relative;
   animation-duration: 10s;
+  background: none;
 
 
 }
