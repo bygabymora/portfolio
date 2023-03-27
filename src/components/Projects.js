@@ -23,6 +23,9 @@ const Projects = () => {
           <a type="button" href="https://github.com/bygabymora/gymapp" className='projectButton' target='blank'>Repository</a>
           <a type="button" href="https://bygabymora.github.io/gymapp/"  className='projectButton' target='blank'>Preview</a>
           </Stack>
+          <p className='projectDescription'>
+          Full Stack app developed in React.js (hooks), with MUI and used an external API to retrieve the exercises info.
+          </p>
         </a>
         </Stack>
         <Stack>
@@ -33,6 +36,9 @@ const Projects = () => {
           <a type="button" href="https://github.com/bygabymora/shoppinglist" className='projectButton' target='blank'>Repository</a>
           <a type="button" href="https://bygabymora.github.io/shoppinglist/"  className='projectButton' target='blank'>Preview</a>
           </Stack>
+          <p className='projectDescription'>
+          Simple shopping list app developed in React, using framer-motion.
+          </p>
         </a>
         </Stack>
         </Stack>
@@ -47,6 +53,9 @@ const Projects = () => {
           <a type="button" href="https://github.com/bygabymora/carcare" className='projectButton' target='blank'>Repository</a>
           <a type="button" href="https://bygabymora.github.io/carcare/"  className='projectButton' target='blank'>Preview</a>
           </Stack>
+          <p className='projectDescription'>
+          This is the project I'm working on right now, its developed in React.js and integrated with Auth0 for the authentication and a MERN stack, it's not fully online yet.
+          </p>
         </a>
         </Stack>
 

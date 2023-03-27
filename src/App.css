@@ -206,6 +206,14 @@
   margin:auto;
   padding: 15px;
 }
+.projectDescription{
+  justify-content: center;
+  font-weight: lighter;
+  margin:auto;
+  padding: 15px;
+  font-size: small;
+  background: none;
+}
 .buttonsWraper{
   justify-content: center;
 }
