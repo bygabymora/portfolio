@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.36061b2c.css",
-    "main.js": "/static/js/main.588648f3.js",
+    "main.js": "/static/js/main.9dc02334.js",
     "static/media/gymapp.gif": "/static/media/gymapp.604d5286e09f7b00a00d.gif",
     "static/media/shoppinglist.gif": "/static/media/shoppinglist.212bf971d4cf0fafd0f0.gif",
     "static/media/AboutImage.png": "/static/media/AboutImage.22d1cf3de455fb80e5f1.png",
@@ -9,9 +9,9 @@
     "static/media/heroBannerImage.png": "/static/media/heroBannerImage.d68e07e5172b8456b82d.png",
     "static/media/By Gaby Mora.png": "/static/media/By Gaby Mora.d9130164a4595ff11ae5.png",
     "static/media/icons8-MUI.svg": "/static/media/icons8-MUI.8be1613a878de747206903008d8d99e3.svg",
-    "static/media/Gaby Mora CV.pdf": "/static/media/Gaby Mora CV.a8d7e5dec658bc4de90c.pdf",
     "static/media/icons8-TS.svg": "/static/media/icons8-TS.5abd004dda610d4bf804c08028fe91a1.svg",
     "static/media/icons8-SQL.svg": "/static/media/icons8-SQL.4d8358976268ef75974e0f1655a807d2.svg",
+    "static/media/Gabriela_Mora_Junior_Web_Developer.docx": "/static/media/Gabriela_Mora_Junior_Web_Developer.e6ea99b9ec5a4218d6f9.docx",
     "static/media/BGM2.png": "/static/media/BGM2.7fcfa71139ede5bd7906.png",
     "static/media/icons8-twitter.svg": "/static/media/icons8-twitter.89e35ccb9ad7e71c32bd3f236ccd54d0.svg",
     "static/media/icons8-whatsapp.svg": "/static/media/icons8-whatsapp.55a223ce45dc0b22b7879aa8690aa93b.svg",
@@ -27,10 +27,10 @@
     "static/media/icons8-css3.svg": "/static/media/icons8-css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/icons8-html-5.svg": "/static/media/icons8-html-5.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.36061b2c.css.map": "/static/css/main.36061b2c.css.map",
-    "main.588648f3.js.map": "/static/js/main.588648f3.js.map"
+    "main.9dc02334.js.map": "/static/js/main.9dc02334.js.map"
   },
   "entrypoints": [
     "static/css/main.36061b2c.css",
-    "static/js/main.588648f3.js"
+    "static/js/main.9dc02334.js"
   ]
 }
