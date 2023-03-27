@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Stack} from '@mui/material';
 import heroBannerImage from '../assets/images/heroBannerImage.png'
 import byGabyMora from '../assets/images/By Gaby Mora.png';
-import CV from'../assets/docs/Gaby Mora CV.pdf';
+import CV from'../assets/docs/Gabriela_Mora_Junior_Web_Developer.docx';
 
 const HeroBanner = () => {
   return (
